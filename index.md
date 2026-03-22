@@ -1,6 +1,6 @@
-# 김주현  
-### Backend Developer
 
+### Backend Developer
+# 김주현  
 - **이메일**: fnqlehcl102@gmail.com
 - **연락처**: +82-10-4142-2557
 - **GitHub**: [github.com/juju123156](https://github.com/juju123156)
