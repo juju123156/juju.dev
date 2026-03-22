@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    <title>{{ page.title | default: site.title }}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <style>
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+
+      body {
+        font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.85;
+        color: #2d2d2d;
+        background: #fff;
+      }
+
+      .page-wrapper {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 56px 28px 100px;
+      }
+
+      /* 이름 */
+      h1 {
+        font-size: 2.6em;
+        font-weight: 700;
+        color: #111;
+        border-bottom: 3px solid #111;
+        padding-bottom: 14px;
+        margin-bottom: 22px;
+      }
+
+      /* 직함 blockquote (이름 바로 아래) */
+      h1 + blockquote {
+        background: #f5f7fa;
+        border-left: 5px solid #2563eb;
+        padding: 14px 20px;
+        border-radius: 0 6px 6px 0;
+        font-size: 1.05em;
+        font-weight: 600;
+        color: #1e3a5f;
+        margin-bottom: 22px;
+      }
+
+      /* 연락처 ul */
+      h1 + blockquote + ul {
+        list-style: none;
+        padding: 0;
+        margin-bottom: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px 24px;
+        font-size: 0.95em;
+        color: #555;
+      }
+
+      h1 + blockquote + ul li::before { content: ""; }
+
+      /* 섹션 제목 */
+      h2 {
+        font-size: 1.55em;
+        font-weight: 700;
+        color: #111;
+        border-bottom: 2px solid #dde1e7;
+        padding-bottom: 8px;
+        margin-top: 64px;
+        margin-bottom: 28px;
+      }
+
+      /* 회사명 */
+      h3 {
+        font-size: 1.25em;
+        font-weight: 700;
+        color: #111;
+        margin-top: 40px;
+        margin-bottom: 6px;
+      }
+
+      /* 프로젝트명 */
+      h4 {
+        font-size: 1.05em;
+        font-weight: 700;
+        color: #222;
+        margin-top: 32px;
+        margin-bottom: 10px;
+        padding-left: 12px;
+        border-left: 4px solid #2563eb;
+      }
+
+      /* 인라인 코드 → 뱃지 */
+      code {
+        font-family: inherit;
+        font-size: 0.84em;
+        background: #eef2f7;
+        color: #2563eb;
+        border-radius: 4px;
+        padding: 2px 9px;
+        font-weight: 600;
+        white-space: nowrap;
+      }
+
+      /* 일반 blockquote */
+      blockquote {
+        border-left: 4px solid #2563eb;
+        background: #f0f6ff;
+        padding: 12px 20px;
+        margin: 18px 0;
+        border-radius: 0 6px 6px 0;
+        color: #1a3a6e;
+      }
+
+      p { margin: 10px 0; }
+
+      ul { padding-left: 1.5em; margin: 10px 0; }
+      ul li { margin: 5px 0; }
+
+      strong { font-weight: 700; color: #111; }
+
+      hr {
+        border: none;
+        border-top: 1px solid #e8eaed;
+        margin: 26px 0;
+      }
+
+      a { color: #2563eb; text-decoration: none; }
+      a:hover { text-decoration: underline; }
+
+      /* 테이블 */
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        font-size: 0.94em;
+      }
+      th {
+        background: #f0f4f8;
+        font-weight: 700;
+        text-align: left;
+        padding: 10px 14px;
+        border: 1px solid #dde3ea;
+        color: #2d2d2d;
+      }
+      td {
+        padding: 9px 14px;
+        border: 1px solid #dde3ea;
+        vertical-align: top;
+        color: #444;
+      }
+      tr:nth-child(even) td { background: #fafbfc; }
+
+      /* 반응형 */
+      @media (max-width: 640px) {
+        h1 { font-size: 2em; }
+        h2 { font-size: 1.3em; }
+        .page-wrapper { padding: 32px 16px 60px; }
+        table { display: block; overflow-x: auto; }
+        h1 + blockquote + ul { flex-direction: column; gap: 4px; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page-wrapper">
+      {{ content }}
+    </div>
+  </body>
+</html>

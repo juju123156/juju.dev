@@ -1,0 +1,8 @@
+title: 김주현 | 백엔드 개발자
+description: 백엔드 개발자 (3년차) | AWS·MSA 환경에서 장애 대응 및 시스템 안정성 개선 경험
+theme: jekyll-theme-minimal
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  hard_wrap: false
