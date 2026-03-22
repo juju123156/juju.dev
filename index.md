@@ -25,15 +25,21 @@ description: 백엔드 개발자 (3년차) | AWS·MSA 환경에서 장애 대응
 
 ---
 
-## 기술 스택
+## Skill
 
-| 구분 | 기술 |
-|------|------|
-| **Backend** | Java (Spring Boot, MyBatis), Python |
-| **Cloud** | AWS (S3, RDS, EFS, CodeBuild), Kubernetes (CronJob, Helm, PV/PVC, Sealed Secret) |
-| **Monitoring** | Datadog |
-| **DB** | MySQL, MariaDB, Oracle (마이그레이션 경험), Execution Plan 기반 쿼리 튜닝 |
-| **DevOps** | Git, Argo CD, Terraform, Apache Kafka, Linux |
+현재 업무에 사용중 혹은 사용했던 기술들입니다.
+
+---
+
+### Backend
+
+- **Java**, **Groovy**, **NodeJS (TypeScript)**
+- **NestJS**, **Spring Boot**, **Spring MVC**, **Spring Batch**, **Spring Security**,  
+  **Spring Data JPA/Redis**, **Spring Cloud AWS**
+- **TypeORM**, **JPA**, **Querydsl**, **Hibernate**
+- **Jest**, **Supertest**, **JUnit4/5**, **Mockito**, **Spock**
+- **Gradle**, **Maven**
+- **IntelliJ**, **WebStorm**, **Visual Studio Code**
 
 ---
 
