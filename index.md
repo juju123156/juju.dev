@@ -199,7 +199,7 @@ Spring 기반 레거시 시스템을 AWS 환경으로 이전하며 클라우드 
 
 `2025` | [GitHub](https://github.com/juju123156/HowsHome)
 
-자바 언어와 Spring Framework를 활용한 팀 프로젝트 (부동산 정보 서비스)
+자바 언어와 Spring Framework를 활용한 프로젝트 (부동산 정보 서비스)
 
 ---
 
