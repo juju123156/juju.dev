@@ -1,6 +1,10 @@
 # 김주현  
 ### Backend Developer
 
+- **이메일**: fnqlehcl102@gmail.com
+- **연락처**: +82-10-4142-2557
+- **GitHub**: [github.com/juju123156](https://github.com/juju123156)
+
 ---
 
 ## 모비젠
@@ -17,12 +21,6 @@
 - 시스템 안정성 및 성능 개선 경험
 - 캐시 스탬피드 및 동시성 이슈 분석/해결 (Advisory Lock 기반 구조 개선)
 - 성능 측정 → 병목 분석 → 구조 개선으로 이어지는 데이터 기반 문제 해결
-
-
-
-- **이메일**: fnqlehcl102@gmail.com
-- **연락처**: +82-10-4142-2557
-- **GitHub**: [github.com/juju123156](https://github.com/juju123156)
 
 ---
 
