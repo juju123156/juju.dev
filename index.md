@@ -33,13 +33,13 @@ description: 백엔드 개발자 (3년차) | AWS·MSA 환경에서 장애 대응
 
 ### Backend
 
-- **Java**, **Groovy**, **NodeJS (TypeScript)**
-- **NestJS**, **Spring Boot**, **Spring MVC**, **Spring Batch**, **Spring Security**,  
+- **Java**, 
+- **Spring Boot**, **Spring Batch**, **Spring Security**,  
   **Spring Data JPA/Redis**, **Spring Cloud AWS**
-- **TypeORM**, **JPA**, **Querydsl**, **Hibernate**
+- **JPA**, **Querydsl**, **Hibernate**
 - **Jest**, **Supertest**, **JUnit4/5**, **Mockito**, **Spock**
 - **Gradle**, **Maven**
-- **IntelliJ**, **WebStorm**, **Visual Studio Code**
+- **IntelliJ**, **Visual Studio Code**
 
 ---
 
